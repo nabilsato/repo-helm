@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  almawave-chart:
+  chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-10T15:08:57.906040561+02:00"
+    created: "2020-07-09T16:50:19.028288569+02:00"
     description: A Helm chart for Kubernetes
-    digest: a42a258c461a474e938997372642a09f1d1fe84231ad36be40ab12992c80efdd
-    name: almawave-chart
+    digest: 34f2eadabea4b15fcdb16d8e61a8af3056c58d35a0a55eaafacafb75d2385c1e
+    name: chart
     type: application
     urls:
-    - almawave-chart-0.1.0.tgz
+    - chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-06-10T15:08:57.904616684+02:00"
+generated: "2020-07-09T16:50:19.026422316+02:00"
