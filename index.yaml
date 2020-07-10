@@ -1,14 +1,35 @@
 apiVersion: v1
 entries:
-  chart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2020-07-09T16:50:19.028288569+02:00"
-    description: A Helm chart for Kubernetes
-    digest: 34f2eadabea4b15fcdb16d8e61a8af3056c58d35a0a55eaafacafb75d2385c1e
-    name: chart
-    type: application
+  kirey-page:
+  - apiVersion: v1
+    appVersion: 5.4.2
+    created: "2020-07-10T16:25:40.597126356+02:00"
+    dependencies:
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - wordpress-database
+      version: 7.x.x
+    description: Web publishing platform for building blogs and websites.
+    digest: bf7438104a1662b4cca5077002c9ffd2fecb0f534cfd888fcdec5a87ec1a0d28
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kirey-page
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
     urls:
-    - chart-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-07-09T16:50:19.026422316+02:00"
+    - kirey-page-9.3.20.tgz
+    version: 9.3.20
+generated: "2020-07-10T16:25:40.58746079+02:00"
