@@ -1,9 +1,11 @@
 apiVersion: v1
 entries:
-  kirey-page:
-  - apiVersion: v1
-    appVersion: 5.4.2
-    created: "2020-07-10T16:25:40.597126356+02:00"
+  wordpress:
+  - annotations:
+      category: CMS
+    apiVersion: v1
+    appVersion: 5.5.1
+    created: "2020-09-11T15:41:37.647119435+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -12,8 +14,8 @@ entries:
       - wordpress-database
       version: 7.x.x
     description: Web publishing platform for building blogs and websites.
-    digest: bf7438104a1662b4cca5077002c9ffd2fecb0f534cfd888fcdec5a87ec1a0d28
-    home: http://www.wordpress.com/
+    digest: 6bd13d1ffa287bcf91ab52ed674e725ac0eb6e0db6e93e4ec9afc7a22332652f
+    home: https://github.com/bitnami/charts/tree/master/bitnami/wordpress
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
     - wordpress
@@ -26,10 +28,11 @@ entries:
     maintainers:
     - email: containers@bitnami.com
       name: Bitnami
-    name: kirey-page
+    name: wordpress
     sources:
     - https://github.com/bitnami/bitnami-docker-wordpress
+    - http://www.wordpress.com/
     urls:
-    - kirey-page-9.3.20.tgz
-    version: 9.3.20
-generated: "2020-07-10T16:25:40.58746079+02:00"
+    - wordpress-9.7.0.tgz
+    version: 9.7.0
+generated: "2020-09-11T15:41:37.638820989+02:00"
